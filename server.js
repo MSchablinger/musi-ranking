@@ -2,7 +2,7 @@ const express = require('express');
 const axios = require('axios');
 
 const ids = [ 
-  122, 123, 127, 131, 134, 137, 154, 155, 169, 178, 185, 191, 202, 203, 212, 226, 232, 241, 247, 252, 254, 260, 263, 267, 278, 279, 284, 286, 296, 302, 307, 308, 316, 324, 328, 342, 343, 350, 351, 356, 365, 369, 371, 372 
+  122, 123, 127, 131, 134, 137, 140, 142, 154, 155, 169, 178, 185, 191, 202, 203, 212, 225, 226, 232, 241, 247, 252, 254, 260, 263, 264, 267, 278, 279, 284, 286, 296, 302, 307, 308, 316, 324, 328, 342, 343, 350, 351, 356, 365, 369, 371, 372 
 ];
 async function getMusi(id) {
   const response = await axios.get(`https://api.meinbezirk.at/v1/content/voteable-upload/${id}/minimal?key=AIzaSyCOhnrdCE4P2-6isUB2KPjAUD5MxbeNyY4&votingGroup=blasmusikchallenge2024`, {
