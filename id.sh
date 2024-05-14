@@ -2,6 +2,7 @@
 
 # List of URLs
 urls=(
+    "https://www.meinbezirk.at/perg/c-freizeit/das-sind-wir-die-stadtkapelle-grein-an-der-donau_a6656211"
     "https://www.meinbezirk.at/grieskirchen-eferding/c-freizeit/das-sind-wir-die-trachtenkapelle-kallham_a6665205"
     "https://www.meinbezirk.at/ried/c-freizeit/das-sind-wir-der-musikverein-pattigham_a6665076"
     "https://www.meinbezirk.at/voecklabruck/c-freizeit/das-sind-wir-der-musikverein-niederthalheim_a6664953"
